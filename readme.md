@@ -29,15 +29,15 @@ A sleek, modern, and full-stack implementation of the classic Tic-Tac-Toe game. 
 
 Follow these steps to get the project running locally:
 
-### 1. Prepare the Environment
+1. Prepare the Environment
 Open your terminal and create a virtual environment to keep your dependencies isolated:
 ```bash
 python -m venv venv
-### 3. Install Dependencies
+ 3. Install Dependencies
 Once the environment is active, install all the required Python libraries (like Flask):
 ```bash
 pip install -r requirements.txt
-## 🎮 How to Play
+ 🎮 How to Play
 
 Follow these simple steps to start and enjoy the game:
 
@@ -45,7 +45,7 @@ Follow these simple steps to start and enjoy the game:
 Open your terminal (with the virtual environment active) and run:
 ```bash
 python server.py
-## 📁 Project Structure
+ 📁 Project Structure
 
 Here is a quick overview of how the files are organized in this project:
 
