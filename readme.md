@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 Follow these simple steps to start and enjoy the game:
 
-### 1. Start the Backend Engine
+1. Start the Backend Engine
 Open your terminal (with the virtual environment active) and run:
 ```bash
 python server.py
