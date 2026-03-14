@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Premium Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1>Tic Tac Toe</h1>
+            <p class="subtitle">Premium Edition</p>
+        </header>
+
+        <section class="game-info">
+            <div class="player player-x active">
+                <span class="player-icon">X</span>
+                <span class="score" id="score-x">0</span>
+            </div>
+            <div class="turn-indicator">
+                <span id="turn-text">Player X's Turn</span>
+            </div>
+            <div class="player player-o">
+                <span class="player-icon">O</span>
+                <span class="score" id="score-o">0</span>
+            </div>
+        </section>
+
+        <section class="game-board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </section>
+
+        <div class="controls">
+            <button id="reset-game" class="btn btn-primary">Reset Game</button>
+        </div>
+        <section class="about-card">
+    <h3>About: </h3>
+    <p>
+        This is a <strong>Premium Tic-Tac-Toe Game.</strong> 
+    
+
+        <footer class="developer-credit">
+            Developed with ❤️ by <span class="dev-name">Danish</span>
+        </footer>
+    </main>
+
+    <div class="modal-overlay" id="result-modal">
+        <div class="modal-content glass-panel">
+            <h2 id="result-message">Player X Wins!</h2>
+            <button id="play-again" class="btn btn-primary mt-4">Play Again</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
