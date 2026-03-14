@@ -20,3 +20,9 @@ if __name__ == '__main__':
             httpd.serve_forever()
     except OSError as e:
         print(f"Server couldn't start on port {PORT}. Error: {e}")
+        import os
+
+if __name__ == "__main__":
+    # Render को इस पोर्ट की ज़रूरत होती है
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
